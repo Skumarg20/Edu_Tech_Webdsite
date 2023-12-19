@@ -1,0 +1,197 @@
+.firstdiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+     
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main h6 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .main h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main p {
+    color: black;
+    font-size: 14px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    /* text-shadow: 1px 1px 1px black; */
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .main h4,
+  h2 {
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .main span {
+    color: #00b894;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+  
+  }
+  .header1{
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .change_content:after {
+    content: "";
+    animation: changetext_2 3s infinite linear;
+    color: #00b894;
+    transition: all 0.2s ease;
+  }
+  
+  @keyframes changetext_2 {
+    0% {
+      content: "NEET";
+    }
+  
+    100% {
+      content: "NEET";
+    }
+  
+  }
+  
+  .row {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+  }
+  
+  
+  
+  
+  .row {
+    margin-top: 3%;
+    padding: auto;
+    overflow: auto;
+  }
+  
+  .divse p {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10%;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    
+  }
+  
+  
+  
+  .coloum2{
+    width: 70%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5%;
+    border: solid black 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .heading h1{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  }
+  .heading li{
+  
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+  }
+  .row{
+    overflow-x: hidden;
+  }
+  
+  .row h1{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  }
+  
+  
+  .feature2 h1{
+    font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  
+    margin-top:12px ; 
+  }
+  
+  
+  /* new thing */
+  
+  
+  /* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); */
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    margin-block: 2rem;
+    gap: 2rem;
+    /* overflow-x: hidden; */
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  
+  }
+  
+  
+  
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .card__body h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .card__body p{
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  

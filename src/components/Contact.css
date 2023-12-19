@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+
+}
+
+.contactus{
+    text-align: center;
+    background-color: #fff;
+    justify-content: baseline;
+  }
+  .contactus{
+    font-family: 'Raleway', sans-serif;
+  }
+
+ .contactus span{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    
+ }
+ .why{
+    background-color: #22AFB4;
+ }
+
+.aboutus{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    justify-items: center;
+}
+.aboutus h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutus p,li{
+    font-family: 'Raleway', sans-serif;
+   
+}
+.aboutus a{
+    color: black;
+
+}
+.aboutus li:hover{
+    background-color: #22AFB4;
+ 
+}
+.aboutus span{
+    font-size: 1.2em;
+}
